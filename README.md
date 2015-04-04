@@ -14,9 +14,10 @@ var Button = require('react-pure-button');
 <Button disabled={true}>Disable</Button>
 <Button active={true}>Running</Button>
 <Button primary={true}>OK</Button>
+<Button><i class="fa fa-shopping-cart fa-lg"></i> Checkout</Button>
 ```
 
-You can attach attributes to each component as usual. **className** won't override default Pure class so you can customize that.
+You can attach attributes to each component as usual. **className** won't override default Pure class so you can customize that. If you want icons, just pass the element referring to it within a Button.
 
 ## Development
 
