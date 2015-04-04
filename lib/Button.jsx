@@ -6,7 +6,9 @@ var React = require('react');
 module.exports = React.createClass({
     displayName: 'Button',
 
-    propTypes: {},
+    propTypes: {
+        className: React.PropTypes.string,
+    },
 
     getDefaultProps() {
         return {};
