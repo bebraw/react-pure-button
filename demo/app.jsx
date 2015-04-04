@@ -26,7 +26,15 @@ module.exports = React.createClass({
                         <h2>Default Button</h2>
 
                         <div>
-                            <Button>Button</Button>
+                            <Button>Activate</Button>
+                        </div>
+                    </section>
+
+                    <section className='demonstration'>
+                        <h2>Disabled Button</h2>
+
+                        <div>
+                            <Button disabled={true}>Activate</Button>
                         </div>
                     </section>
 

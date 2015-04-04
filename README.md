@@ -10,7 +10,8 @@ var Button = require('react-pure-button');
 ```
 
 ```html
-<Button />
+<Button>Activate</Button>
+<Button disabled={true}>Disable</Button>
 ```
 
 You can attach attributes to each component as usual. **className** won't override default Pure class so you can customize that.

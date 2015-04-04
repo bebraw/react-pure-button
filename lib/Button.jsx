@@ -8,18 +8,23 @@ module.exports = React.createClass({
 
     propTypes: {
         className: React.PropTypes.string,
+        disabled: React.PropTypes.bool,
     },
 
     getDefaultProps() {
-        return {};
+        return {
+            disabled: false,
+        };
     },
 
     render: function() {
-        var {className, ...props} = this.props;
+        var {className, disabled, ...props} = this.props;
+        var disabledClass = disabled && 'pure-button-disabled';
 
         return (
             <button className={
-                classNames('pure-button', className)} {...props}>{props.children}</button>
+                classNames('pure-button', className, disabledClass)} {...props}>
+                {props.children}</button>
         );
     },
 });
