@@ -46,6 +46,14 @@ module.exports = React.createClass({
                         </div>
                     </section>
 
+                    <section className='demonstration'>
+                        <h2>Primary Button</h2>
+
+                        <div>
+                            <Button primary={true}>OK</Button>
+                        </div>
+                    </section>
+
                     <section className='documentation'>
                         <h2>README</h2>
 
