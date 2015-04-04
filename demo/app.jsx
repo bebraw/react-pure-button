@@ -38,6 +38,14 @@ module.exports = React.createClass({
                         </div>
                     </section>
 
+                    <section className='demonstration'>
+                        <h2>Active Button</h2>
+
+                        <div>
+                            <Button active={true}>Activate</Button>
+                        </div>
+                    </section>
+
                     <section className='documentation'>
                         <h2>README</h2>
 
